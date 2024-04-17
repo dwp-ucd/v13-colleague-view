@@ -119,3 +119,42 @@
 .govuk-show {
     display: block;
 }
+
+.govuk-summary-list__row th, .govuk-summary-list__row td   {
+    text-align: left;
+    vertical-align: top;
+}
+
+.govuk-summary-list__row td   {
+    text-align: left;
+    vertical-align: top;
+}
+
+tr.govuk-summary-list__row:not(.govuk-summary-list__row--no-actions) > :last-child {
+
+    text-align: right;
+}
+
+.break-line-colleague-view {
+
+    word-break: break-all;
+}
+
+.govuk-cv-overflow {
+    overflow-x:auto;
+}
+
+.govuk-cv-notification-banner {
+    margin-bottom: 30px;
+
+}
+.govuk-cv-notification-banner .govuk-notification-banner__content p {
+    min-width: 100%;
+}
+
+.govuk-cv-notification-banner .govuk-notification-banner__heading {
+    font-weight: 400;
+    font-size: 1.1875rem;
+    font-size: 19px;
+    line-height: 1.31579;
+}
